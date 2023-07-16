@@ -1,0 +1,17 @@
+{
+    "name": "Game.Behaviour",
+    "rootNamespace": "",
+    "references": [
+        "GUID:35af290224276f04aab5a04b887a6b29",
+        "GUID:39e284ca25958654fa0aeb2f0c20daeb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
