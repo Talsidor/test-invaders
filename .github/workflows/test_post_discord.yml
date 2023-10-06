@@ -1,3 +1,4 @@
+name: Test post to Discord
 on:
   workflow_dispatch:
 
