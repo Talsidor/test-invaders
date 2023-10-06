@@ -1,10 +1,10 @@
-name: Actions 😎
+name: Main Pipeline
 
 on: [push, pull_request]
 
 jobs:
   build:
-    name: Build my project ✨
+    name: Test & Build WebGL
     runs-on: ubuntu-latest
     steps:
       # Checkout
