@@ -1,0 +1,18 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-18.04
+    steps:
+    
+    - name: Discord Notifier
+      # You may pin to the exact commit or the version.
+      # uses: fateyan/action-discord-notifier@2d543d3e7e2c63546420b10f2652cb61e24578fc
+      uses: fateyan/action-discord-notifier@v1.2.0
+      with:
+        # A full discord webhook url
+        webhook: https://discord.com/api/webhooks/1159694932840288307/iaDE_9IRYuaxcCbTWJMv2KLpbQ3KTlpYK8uF1BB5LBaqyfCtZ1_QUHACFbrXbkqWuUra
+        # Message title
+        message-title: testy test # optional
