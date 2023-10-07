@@ -28,6 +28,7 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          unityVersion: 2021.3.27f1
 
       # Build
       - name: Build project
@@ -38,6 +39,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: WebGL
+          unityVersion: 2021.3.27f1
 
       # Output
       - uses: actions/upload-artifact@v3
