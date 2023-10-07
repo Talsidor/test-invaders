@@ -7,6 +7,11 @@ jobs:
     name: Test & Build WebGL
     runs-on: ubuntu-latest
     steps:
+      - name: Free Disk Space (Ubuntu)
+        # You may pin to the exact commit or the version.
+        # uses: jlumbroso/free-disk-space@f68fdb76e2ea636224182cfb7377ff9a1708f9b8
+        uses: jlumbroso/free-disk-space@v1.3.0
+    
       # Checkout
       - name: Checkout repository
         uses: actions/checkout@v3
