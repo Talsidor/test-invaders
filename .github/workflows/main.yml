@@ -40,6 +40,8 @@ jobs:
         with:
           targetPlatform: WebGL
           unityVersion: 2021.3.27f1
+          # TODO: should be removed, but currently files are getting changed :( 
+          allowDirtyBuild: true
 
       # Output
       - uses: actions/upload-artifact@v3
